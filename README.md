@@ -26,4 +26,5 @@ To run our project there are a couple of things needed to get started.
 1. The user must download the dataset from Kaggle at: https://www.kaggle.com/competitions/painter-by-numbers/data?select=train_1.zip. This will download the training dataset. The entire library of photos is 90gb so we decided to download a portion of it. This file should be around 5gb in size.
 2. Download all our code and place the file of photos in a folder with our code
 3. Download all the libraries. We used the pycharm IDE to code, the modules the user must install are: pillow, tensorflow, keras, sklearn, os, and tqdm.
-The last step is to  Once the user has completed these 3 steps, the program should run.
+
+Once the user has completed these 3 steps, the program should run.
