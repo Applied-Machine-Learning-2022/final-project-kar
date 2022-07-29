@@ -29,6 +29,7 @@ def create_data():
 
     ImageFile.LOAD_TRUNCATED_IMAGES = True
 
+    # imageDataGenerator method
     imageDataGenerator = tf.keras.preprocessing.image.ImageDataGenerator(
         rescale = 1./255.,
         dtype=np.float32
